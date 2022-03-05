@@ -1,0 +1,65 @@
+script type=textjavascript
+    window.cnblogsConfig = {
+      title {  网页title
+        onblur '博客',  网页失去焦点时，页面显示的文字
+        onblurTime 500,  当页面失去焦点，页面title变化的延时时间，单位毫秒
+        focus '欢迎回来！',  当页面获取焦点，页面title显示的文字；显示后，延时恢复原title。
+      },
+      info {  基础信息
+        name 'zimei',  用户名
+        startDate '2021-07-03',  入园时间，年-月-日。入园时间查看方法：鼠标停留园龄时间上，会显示入园时间
+        avatar 'httpimg.zimei.xyz202203051825407.jpg',  用户头像
+        blogIcon 'httpsimg.zimei.xyzfavicon.ico',  网站图标
+      },
+      banner {  横幅
+        home {
+          titleSource 'jinrishici',
+          background [
+            httpimg.zimei.xyz202203051949436.jpg,
+          ],
+        },
+        article {
+            background [ 图片地址
+                httpsimg.zimei.xyz202201272327591.jpg,
+            ],
+        },
+      },
+      footer {  页脚
+        style 2,
+      },
+      rtMenu {  二维码
+        qrCode 'httpsimg.zimei.xyz202201281620194.jpg',
+      },
+      animate {  动效
+        homeBanner {  主页动效
+          enable false,
+          options {
+          radius 15,
+          density 0.05,  密度
+          color 'rgba(255,255,255, .2)',  颜色设置，“random” 为随机颜色
+          clearOffset 0.3,
+          }
+        },
+        articleBanner { 文章页动效
+          enable false,
+        },
+        background {  背景动效（动态彩带）
+          enable false,
+        },
+      },
+      code { 代码
+        type 'hljs',
+        options { 渲染设置
+          theme 'atelier-dune-dark',
+          line true,  行号
+          macStyle false, mac风格代码框样式
+        }
+      },
+      articleSuffix { 文章后缀
+        aboutHtml I am a good person, 关于博主
+        copyrightHtml 版权..., 版权声明
+        supportHtml 声援..., 声援博主
+      },
+    }
+script
+script src=httpscdn.jsdelivr.netghBNDongCnblogs-Theme-SimpleMemory@v2.0.6distsimpleMemory.js deferscript
