@@ -8,6 +8,10 @@
 
 ### 主题搭建
 
+原来的开源地址，主题作者。
+
+[点我查看原作者](https://github.com/BNDong/Cnblogs-Theme-SimpleMemory)
+
 **旧版**
 
 [博客园主题美化 - 阳仔真的很忙 - 博客园 (cnblogs.com)](https://www.cnblogs.com/zhikui/p/cnblogs_them.html)
